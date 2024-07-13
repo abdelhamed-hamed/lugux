@@ -1,0 +1,36 @@
+.all.landing {
+    min-height: 50vh;
+    max-height: 70vh;
+}
+
+.all.landing+.section .av-section ul li input {
+
+    &+.button {
+        background-color: white;
+
+        &:hover {
+            color: var(--red-color, red);
+        }
+    }
+
+    &:checked+.button {
+        background-color: var(--red-color, red);
+        color: white;
+    }
+}
+
+@media (max-width:575px) {
+    .shops.landing+.section .av-section ul li {
+        margin-right: 5px;
+    }
+}
+
+/* To Cancel Padding Top And margin-Bottom Of Section */
+.shops.section {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.shops-trending.section {
+    margin-bottom: 60px;
+}

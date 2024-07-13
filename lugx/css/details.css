@@ -1,0 +1,62 @@
+.boxs>.box {
+    align-self: center;
+}
+
+@media(max-width:1200px) {
+    .contact-details .boxs {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 0;
+    }
+
+}
+
+.contact-details .boxs .amount {
+    & input {
+        max-width: 71px;
+        background-color: #eee;
+        font-weight: bold;
+        transition: var(--main-transition, 0.5s);
+
+        &:hover {
+            color: black;
+        }
+
+        &:focus {
+            border: 2px solid var(--blue-color, blue) !important;
+            box-shadow: 0px 0px 0px 3px rgb(1 113 249 / 40%);
+        }
+    }
+}
+
+@media(max-width:767px) {
+    .contact-details .boxs .amount {
+        flex-wrap: wrap;
+
+        & input {
+            max-width: 100% !important;
+            margin-bottom: 10px;
+        }
+
+        & .add-cart {
+            margin: 0;
+        }
+    }
+
+}
+
+.description-reviews .title h2 {
+    font-size: max(12px, 2vw);
+}
+
+.description-reviews .title h2:first-of-type {
+    &::after {
+        content: "";
+        position: absolute;
+        width: 2px;
+        height: 90%;
+        background-color: #ba6d0f;
+        left: calc(100% - 5px);
+    }
+}

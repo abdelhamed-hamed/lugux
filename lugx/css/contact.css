@@ -1,0 +1,13 @@
+@media (max-width:767px) {
+    .contact-info {
+        flex-grow: 1;
+    }
+}
+
+.contact-social {
+    background-color: #446778;
+
+    & input[type="submit"] {
+        background-color: #612348;
+    }
+}

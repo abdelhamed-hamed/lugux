@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lugx</title>
+    <link rel="stylesheet" href="../css/all.min.css" />
+    <link rel="stylesheet" href="../css/normalize.css" />
+    <link rel="stylesheet" href="../css/framework.css" />
+    <link rel="stylesheet" href="../css/home.css" />
+    <link rel="stylesheet" href="../css/shops.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="absolute container fu-width">
+      <div class="head-content cap f-between m-t-20">
+        <img src="../images/logo.png" alt="Logo" title="LUGX" />
+        <div class="icon f-cener">
+          <label for="bar" class="pointer d-none block-mobile" id="pointer"
+            ><i class="fa-solid fa-bars-staggered bar-icon fa-2x c-white"></i
+          ></label>
+        </div>
+        <input type="checkbox" id="bar" class="d-none" />
+        <ul class="d-flex gap-25 f-17">
+          <li>
+            <a href="../index.html" class="button c-white f-w-500">home</a>
+          </li>
+          <li>
+            <a
+              href="javascript:window.location.reload(true)"
+              class="button c-white f-w-500 active"
+              >our shope</a
+            >
+          </li>
+          <li>
+            <a href="details.html" class="button c-white f-w-500"
+              >product details</a
+            >
+          </li>
+          <li>
+            <a href="contact.html" class="button c-white f-w-500">contact us</a>
+          </li>
+          <li>
+            <a href="#" class="button c-white upper f-bold">sign in</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <div class="landing all f-wrap relative">
+      <div class="section-title absolute text-center">
+        <h2 class="c-white upper m-t-60 m-b-15 t-wrap">our shops</h2>
+        <span class="c-white cap m-b-5 f-20 t-wrap"
+          ><a href="../index.html" class="c-white">home</a> &gt; our shops</span
+        >
+      </div>
+    </div>
+    <div class="section relative m-b-60 shops">
+      <div class="container">
+        <div class="av-section">
+          <ul class="f-center">
+            <li class="m-r-15 upper f-bold">
+              <input
+                type="radio"
+                name="section"
+                id="all"
+                class="d-none"
+                checked
+              />
+              <label for="all" class="button pointer t-wrap">show all</label>
+            </li>
+            <li class="m-r-15 upper f-bold">
+              <input
+                type="radio"
+                name="section"
+                id="Adventure"
+                class="d-none"
+              />
+              <label for="Adventure" class="button pointer">Adventure</label>
+            </li>
+            <li class="m-r-15 upper f-bold">
+              <input type="radio" name="section" id="strategy" class="d-none" />
+              <label for="strategy" class="button pointer">strategy</label>
+            </li>
+            <li class="upper f-bold">
+              <input type="radio" name="section" id="racing" class="d-none" />
+              <label for="racing" class="button pointer">racing</label>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="section relative shops-trending">
+      <div class="trending-box container">
+        <div class="boxs gap-25 grid-four">
+          <div class="box b-eee flow-hidden bor-30 relative">
+            <div class="image">
+              <img
+                src="../images/top-game-02.jpg"
+                alt="NOT_FOUND"
+                class="bor-30 fu-width"
+              />
+              <span
+                class="absolute price f-center p-15 c-white f-17 f-bold d-block price"
+                ><span class="l-through d-block">30$</span
+                ><span class="d-block">20$</span></span
+              >
+            </div>
+            <div class="info f-between p-r-15 p-l-15 m-t-20 cap m-b-15">
+              <div class="text">
+                <span class="d-block f-17 f-w-700 m-b-5 c-888 l-s-2"
+                  >action</span
+                >
+                <span class="f-bold f-17">Assasin Creed</span>
+              </div>
+              <div class="icon">
+                <i
+                  class="fa-solid fa-sack-dollar trending-icon rad-icon f-center f-17 c-white"
+                ></i>
+              </div>
+            </div>
+          </div>
+          <div class="box b-eee flow-hidden bor-30 relative">
+            <div class="image">
+              <img
+                src="../images/top-game-01.jpg"
+                alt="NOT_FOUND"
+                class="bor-30 fu-width"
+              />
+              <span
+                class="absolute price f-center p-15 c-white f-17 f-bold d-block price"
+                >30$</span
+              >
+            </div>
+            <div class="info f-between p-r-15 p-l-15 m-t-20 cap m-b-15">
+              <div class="text">
+                <span class="d-block f-17 f-w-700 m-b-5 c-888 l-s-2"
+                  >action</span
+                >
+                <span class="f-bold f-17">Assasin Creed</span>
+              </div>
+              <div class="icon">
+                <i
+                  class="fa-solid fa-sack-dollar trending-icon rad-icon f-center f-17 c-white"
+                ></i>
+              </div>
+            </div>
+          </div>
+          <div class="box b-eee flow-hidden bor-30 relative">
+            <div class="image">
+              <img
+                src="../images/top-game-03.jpg"
+                alt="NOT_FOUND"
+                class="bor-30 fu-width"
+              />
+              <span
+                class="absolute price f-center p-15 c-white f-17 f-bold d-block price"
+                ><span class="l-through d-block">90$</span
+                ><span class="d-block">60$</span></span
+              >
+            </div>
+            <div class="info f-between p-r-15 p-l-15 m-t-20 cap m-b-15">
+              <div class="text">
+                <span class="d-block f-17 f-w-700 m-b-5 c-888 l-s-2"
+                  >action</span
+                >
+                <span class="f-bold f-17">Assasin Creed</span>
+              </div>
+              <div class="icon">
+                <i
+                  class="fa-solid fa-sack-dollar trending-icon rad-icon f-center f-17 c-white"
+                ></i>
+              </div>
+            </div>
+          </div>
+          <div class="box b-eee flow-hidden bor-30 relative">
+            <div class="image">
+              <img
+                src="../images/top-game-04.jpg"
+                alt="NOT_FOUND"
+                class="bor-30 fu-width"
+              />
+              <span
+                class="absolute price f-center p-15 c-white f-17 f-bold d-block price"
+                >100$</span
+              >
+            </div>
+            <div class="info f-between p-r-15 p-l-15 m-t-20 cap m-b-15">
+              <div class="text">
+                <span class="d-block f-17 f-w-700 m-b-5 c-888 l-s-2"
+                  >action</span
+                >
+                <span class="f-bold f-17">Assasin Creed</span>
+              </div>
+              <div class="icon">
+                <i
+                  class="fa-solid fa-sack-dollar trending-icon rad-icon f-center f-17 c-white"
+                ></i>
+              </div>
+            </div>
+          </div>
+          <div class="box b-eee flow-hidden bor-30 relative">
+            <div class="image">
+              <img
+                src="../images/top-game-01.jpg"
+                alt="NOT_FOUND"
+                class="bor-30 fu-width"
+              />
+              <span
+                class="absolute price f-center p-15 c-white f-17 f-bold d-block price"
+                >100$</span
+              >
+            </div>
+            <div class="info f-between p-r-15 p-l-15 m-t-20 cap m-b-15">
+              <div class="text">
+                <span class="d-block f-17 f-w-700 m-b-5 c-888 l-s-2"
+                  >action</span
+                >
+                <span class="f-bold f-17">Assasin Creed</span>
+              </div>
+              <div class="icon">
+                <i
+                  class="fa-solid fa-sack-dollar trending-icon rad-icon f-center f-17 c-white"
+                ></i>
+              </div>
+            </div>
+          </div>
+          <div class="box b-eee flow-hidden bor-30 relative">
+            <div class="image">
+              <img
+                src="../images/top-game-02.jpg"
+                alt="NOT_FOUND"
+                class="bor-30 fu-width"
+              />
+              <span
+                class="absolute price f-center p-15 c-white f-17 f-bold d-block price"
+                >100$</span
+              >
+            </div>
+            <div class="info f-between p-r-15 p-l-15 m-t-20 cap m-b-15">
+              <div class="text">
+                <span class="d-block f-17 f-w-700 m-b-5 c-888 l-s-2"
+                  >action</span
+                >
+                <span class="f-bold f-17">Assasin Creed</span>
+              </div>
+              <div class="icon">
+                <i
+                  class="fa-solid fa-sack-dollar trending-icon rad-icon f-center f-17 c-white"
+                ></i>
+              </div>
+            </div>
+          </div>
+          <div class="box b-eee flow-hidden bor-30 relative">
+            <div class="image">
+              <img
+                src="../images/top-game-03.jpg"
+                alt="NOT_FOUND"
+                class="bor-30 fu-width"
+              />
+              <span
+                class="absolute price f-center p-15 c-white f-17 f-bold d-block price"
+                >100$</span
+              >
+            </div>
+            <div class="info f-between p-r-15 p-l-15 m-t-20 cap m-b-15">
+              <div class="text">
+                <span class="d-block f-17 f-w-700 m-b-5 c-888 l-s-2"
+                  >action</span
+                >
+                <span class="f-bold f-17">Assasin Creed</span>
+              </div>
+              <div class="icon">
+                <i
+                  class="fa-solid fa-sack-dollar trending-icon rad-icon f-center f-17 c-white"
+                ></i>
+              </div>
+            </div>
+          </div>
+          <div class="box b-eee flow-hidden bor-30 relative">
+            <div class="image">
+              <img
+                src="../images/top-game-04.jpg"
+                alt="NOT_FOUND"
+                class="bor-30 fu-width"
+              />
+              <span
+                class="absolute price f-center p-15 c-white f-17 f-bold d-block price"
+                >100$</span
+              >
+            </div>
+            <div class="info f-between p-r-15 p-l-15 m-t-20 cap m-b-15">
+              <div class="text">
+                <span class="d-block f-17 f-w-700 m-b-5 c-888 l-s-2"
+                  >action</span
+                >
+                <span class="f-bold f-17">Assasin Creed</span>
+              </div>
+              <div class="icon">
+                <i
+                  class="fa-solid fa-sack-dollar trending-icon rad-icon f-center f-17 c-white"
+                ></i>
+              </div>
+            </div>
+          </div>
+          <div class="box b-eee flow-hidden bor-30 relative">
+            <div class="image">
+              <img
+                src="../images/top-game-05.jpg"
+                alt="NOT_FOUND"
+                class="bor-30 fu-width"
+              />
+              <span
+                class="absolute price f-center p-15 c-white f-17 f-bold d-block price"
+                >100$</span
+              >
+            </div>
+            <div class="info f-between p-r-15 p-l-15 m-t-20 cap m-b-15">
+              <div class="text">
+                <span class="d-block f-17 f-w-700 m-b-5 c-888 l-s-2"
+                  >action</span
+                >
+                <span class="f-bold f-17">Assasin Creed</span>
+              </div>
+              <div class="icon">
+                <i
+                  class="fa-solid fa-sack-dollar trending-icon rad-icon f-center f-17 c-white"
+                ></i>
+              </div>
+            </div>
+          </div>
+          <div class="box b-eee flow-hidden bor-30 relative">
+            <div class="image">
+              <img
+                src="../images/top-game-06.jpg"
+                alt="NOT_FOUND"
+                class="bor-30 fu-width"
+              />
+              <span
+                class="absolute price f-center p-15 c-white f-17 f-bold d-block price"
+                >100$</span
+              >
+            </div>
+            <div class="info f-between p-r-15 p-l-15 m-t-20 cap m-b-15">
+              <div class="text">
+                <span class="d-block f-17 f-w-700 m-b-5 c-888 l-s-2"
+                  >action</span
+                >
+                <span class="f-bold f-17">Assasin Creed</span>
+              </div>
+              <div class="icon">
+                <i
+                  class="fa-solid fa-sack-dollar trending-icon rad-icon f-center f-17 c-white"
+                ></i>
+              </div>
+            </div>
+          </div>
+          <div class="box b-eee flow-hidden bor-30 relative">
+            <div class="image">
+              <img
+                src="../images/top-game-02.jpg"
+                alt="NOT_FOUND"
+                class="bor-30 fu-width"
+              />
+              <span
+                class="absolute price f-center p-15 c-white f-17 f-bold d-block price"
+                >100$</span
+              >
+            </div>
+            <div class="info f-between p-r-15 p-l-15 m-t-20 cap m-b-15">
+              <div class="text">
+                <span class="d-block f-17 f-w-700 m-b-5 c-888 l-s-2"
+                  >action</span
+                >
+                <span class="f-bold f-17">Assasin Creed</span>
+              </div>
+              <div class="icon">
+                <i
+                  class="fa-solid fa-sack-dollar trending-icon rad-icon f-center f-17 c-white"
+                ></i>
+              </div>
+            </div>
+          </div>
+          <div class="box b-eee flow-hidden bor-30 relative">
+            <div class="image">
+              <img
+                src="../images/top-game-05.jpg"
+                alt="NOT_FOUND"
+                class="bor-30 fu-width"
+              />
+              <span
+                class="absolute price f-center p-15 c-white f-17 f-bold d-block price"
+                >100$</span
+              >
+            </div>
+            <div class="info f-between p-r-15 p-l-15 m-t-20 cap m-b-15">
+              <div class="text">
+                <span class="d-block f-17 f-w-700 m-b-5 c-888 l-s-2"
+                  >action</span
+                >
+                <span class="f-bold f-17">Assasin Creed</span>
+              </div>
+              <div class="icon">
+                <i
+                  class="fa-solid fa-sack-dollar trending-icon rad-icon f-center f-17 c-white"
+                ></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="relative f-center">
+      <p class="c-white f-17 f-bold m-0 p-l-15 text-center relative fu-width">
+        Copyright &#169; 2048 LUGX Gaming Company. All rights reserved. Design:
+        TemplateMo
+      </p>
+    </footer>
+    <script src="../main.js"></script>
+  </body>
+</html>
